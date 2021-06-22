@@ -23,8 +23,6 @@ suggest = int(input(
 
 key = hitList[suggest-1]['track']['key']
 
-
-
 if(len(getResponse('songs/list-recommendations', 'key', key)) == 0):
     print('No Recommendations for This Song')
 else:
